@@ -1,5 +1,6 @@
 import Footer from './Components/Fooder'
 import NavBar from './Components/NavBar'
+import ScrollSocialButtons from './Components/ScrollSocialButtons'
 import Gallery from './Pages/Gallery'
 import Home_page from './Pages/Home_page'
 import Projects_page from './Pages/Projects_page'
@@ -14,6 +15,7 @@ function App() {
     <>
     <NavBar />
       <Home_page />
+      <ScrollSocialButtons/>
       <Projects_page />
       <Services />
       <Gallery />

@@ -107,6 +107,15 @@ body {
   color: var(--secondary-color);
 }
 
+.gallery-image{
+  transition: transform 0.3s ease;
+
+}
+
+.gallery-image:hover {
+  transform: translateY(-5px);
+}
+
 .service-icon svg {
   width: 48px;
   height: 48px;

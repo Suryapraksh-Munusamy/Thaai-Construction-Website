@@ -23,9 +23,9 @@ const Gallery = () => {
   return (
     <div className="container py-5">
       <h2 className="text-center mb-5">Gallery</h2>
-      <div className="row row-cols-1 row-cols-md-4 g-4">
+      <div className="row row-cols-1 row-cols-md-4 g-4 ">
         {cards.map((card) => (
-          <div className="col" key={card.id}>
+          <div className="col gallery-image" key={card.id}>
             <div className="card h-100 shadow-sm">
               <img src={card.img} className="card-img-top" alt={card.title} />
               <div className="card-body">

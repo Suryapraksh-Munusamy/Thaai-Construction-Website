@@ -34,6 +34,16 @@ const Services = () => {
       title: "Design",
       description: "Complete Designing"
     },
+    {
+      icon: <Hammer />,
+      title: "Renovation",
+      description: "Complete renovation and remodeling services"
+    },
+    {
+      icon: <PaintBucket />,
+      title: "Interior Design",
+      description: "Professional interior design and decoration"
+    }
   ]
 
   return (
