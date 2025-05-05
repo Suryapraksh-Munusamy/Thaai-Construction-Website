@@ -51,13 +51,13 @@ const Navbar = () => {
     <div id="links" className="collapse navbar-collapse justify-content-end">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="/home" className="nav-link">Home</a>
+          <a href="/" className="nav-link">Home</a>
         </li>
         <li className="nav-item">
             <a className="nav-link" href="/">About Us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Gallery</a>
+            <a className="nav-link" href="/Full-gallery">Gallery</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/">Services</a>

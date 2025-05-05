@@ -52,7 +52,7 @@ const Services = () => {
         <h2 className="text-center mb-5">Our Services</h2>
         <Row>
           {services.map((service, index) => (
-            <Col key={index} md={3} className="mb-4 text-center">
+            <Col key={index} md={3} className="mb-4 text-center gallery-image">
               <div className="service-icon mb-3">
                 {service.icon}
               </div>
