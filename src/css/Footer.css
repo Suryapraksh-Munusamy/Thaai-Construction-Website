@@ -1,0 +1,10 @@
+i{
+    width: 10px;
+    height:10px;
+}
+i:hover{
+    cursor: pointer;
+    color: rgb(247, 43, 230);
+    transition: all ease-in-out 0.25s;
+   scale: 1.15;
+}
