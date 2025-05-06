@@ -1,7 +1,7 @@
 import '../css/Footer.css'
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light  p-5">
+    <footer className="bg-dark text-light py-3 mt-auto">
       <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
           <div className="logo">
             <i className="fas fa-industry fa-2x"></i>
@@ -25,6 +25,10 @@ const Footer = () => {
           </div>
          
 
+      </div>
+
+      <div>
+        <p className="mb-0 text-center">© 2025 My Website. All rights reserved.</p>
       </div>
     </footer>
   )
