@@ -31,10 +31,11 @@ function App() {
 
       <Contact />
       <About />
+      <AdminPage />
       {/* <div className="d-flex flex-column min-vh-100">
         <AdminPage />
-      </div> */}
-      
+      </div>
+       */}
 
       <Footer />
     </BrowserRouter>

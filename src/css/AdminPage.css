@@ -1,0 +1,70 @@
+.admin-logo {
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .admin-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+  
+  .admin-welcome {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .admin-header {
+    background: #001529;
+    padding: 0;
+  }
+  .admin-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hamburger {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .desktop-only {
+    display: none;
+  }
+  
+  .mobile-only {
+    display: none;
+  }
+  
+  /* Responsive Settings */
+  @media (min-width: 768px) {
+    .mobile-only {
+      display: none;
+    }
+  
+    .desktop-only {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .mobile-only {
+      display: flex;
+    }
+  
+    .desktop-only {
+      display: none;
+    }
+  }
+  
+  .admin-content-box {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+    border-radius: 8px;
+  }
